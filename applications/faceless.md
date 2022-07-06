@@ -59,7 +59,7 @@ On input <img src="http://chart.googleapis.com/chart?cht=tx&chl= \lambda" style=
   <img src="https://github.com/lornacrevelingwgo23/img/blob/main/Screenshot%202022-05-21%20at%2016.55.30.png" alt="" width="20%"/>
 </p>
 
-- <img src="http://chart.googleapis.com/chart?cht=tx&chl= Decrypt(ID, para, C, SK_{\mbox{ID}})" style="border:none;">. Let <img src="http://chart.googleapis.com/chart?cht=tx&chl= C = \left( {{C_1},{C_2}} \right)" style="border:none;"> be a ciphertext encrypted under the identity <img src="http://chart.googleapis.com/chart?cht=tx&chl= ID" style="border:none;">. Calculate <img src="http://chart.googleapis.com/chart?cht=tx&chl= m" style="border:none;"> such that <p align="center">
+- <img src="http://chart.googleapis.com/chart?cht=tx&chl= Decrypt(ID, para, C, SK_{\mbox{ID}})" style="border:none;">. Let C = (C_1,C_2) be a ciphertext encrypted under the identity <img src="http://chart.googleapis.com/chart?cht=tx&chl= ID" style="border:none;">. Calculate <img src="http://chart.googleapis.com/chart?cht=tx&chl= m" style="border:none;"> such that <p align="center">
   <img src="https://github.com/lornacrevelingwgo23/img/blob/main/Screenshot%202022-05-21%20at%2016.55.44.png" alt="" width="20%"/>
 </p>
 
