@@ -1,3 +1,7 @@
+---
+title: List of accepted applications
+---
+
 {% for application in site.applications %}
   <h2>
     <a href="{{ application.url }}">
