@@ -11,7 +11,7 @@
 | /docs | [./docs/](./docs/) | Folders cannot be linked... |
 | /rfps | [./rfps/](./rfps/) | ... unless they have a Readme inside. |
 | /rfps/README.md | [./rfps/README.md](./rfps/README.md) | RFPs |
-| /_applications/faceless.md | [./_applications/faceless.md](./applications/faceless.md) | All .md files are automatically converted to HTML |
+| /_applications/faceless.md | [./applications/faceless.md](./applications/faceless.md) | All .md files are automatically converted to HTML |
 
 
 - [:wave: Introduction](#wave-introduction)
