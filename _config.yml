@@ -1,1 +1,5 @@
 theme: jekyll-theme-slate
+title: Some Great Grants Program
+collections:
+  - applications
+  - docs
