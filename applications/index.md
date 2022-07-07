@@ -1,5 +1,6 @@
 ---
 title: List of accepted applications
+datatable: true
 ---
 
 <!-- {% for application in site.applications %}
@@ -21,7 +22,7 @@ title: List of accepted applications
     {% endif %}  
 {% endfor %}   -->
 
-<table class="responsive-table table">
+<table class="display">
   <thead>
     <tr>
       <th scope="col">Name</th>
