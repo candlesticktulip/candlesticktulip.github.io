@@ -5,6 +5,15 @@
 </p>
 
 
+| Source | Link  | 
+| :--- | :------ |  
+| /applications | [./applications/](./applications/) |
+| /docs | [./docs/](./docs/) | 
+| /applications/faceless.md | [./applications/faceless.md](./applications/faceless.md) |
+| /rfps | [./rfps/](./rfps/) | 
+| /rfps/README.md | [./rfps/README.md](./rfps/README.md) |
+
+
 - [:wave: Introduction](#wave-introduction)
   - [Guidelines](#guidelines)
   - [Project ideas](#project-ideas)
