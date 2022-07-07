@@ -28,12 +28,15 @@ datatable: true
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
 <script>
 $(document).ready(function(){
-
     $('table.display').DataTable( {
         paging: true,
         stateSave: true,
-        searching: true
-    }
-        );
+        searching: true,  
+        ordering: true,
+        search: {
+          regex: true,
+          smart: true
+        }
+    });
 });
 </script>
