@@ -7,9 +7,9 @@
 
 | Source | Link  | Comment
 | :--- | :------ | :------ |
-| /applications | [./applications/](./applications/) | Folders cannot be linked |
 | /docs | [./docs/](./docs/) | Folders cannot be linked... |
-| /rfps | [./rfps/](./rfps/) | ... unless they have a Readme inside. |
+| /applications | [./applications/](./applications/) | ... unless they have an index.md... |
+| /rfps | [./rfps/](./rfps/) | ... or a Readme.md inside. |
 | /rfps/README.md | [./rfps/README.md](./rfps/README.md) | RFPs |
 | /_applications/faceless.md | [./applications/faceless.md](./applications/faceless.md) | All .md files are automatically converted to HTML |
 

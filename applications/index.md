@@ -6,9 +6,9 @@ layout: applications
 <table class="display">
   <thead>
     <tr>
-      <th scope="col">Name :arrow_up_down:</th>
-      <th scope="col">Date :arrow_up_down:</th>
-      <th scope="col">Dir :arrow_up_down:</th>
+      <th scope="col">Name</th>
+      <th scope="col">Date</th>
+      <th scope="col">Dir</th>
     </tr>
   </thead>
   <tbody>
