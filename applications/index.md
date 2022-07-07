@@ -25,21 +25,19 @@ title: List of accepted applications
   <thead>
     <tr>
       <th scope="col">Name</th>
-      <th scope="col">Link</th>
       <th scope="col">Date</th>
-      <th scope="col">Title</th>
       <th scope="col">Dir</th>
     </tr>
   </thead>
   <tbody>
     {% for page in site.pages %}
-    <tr>
-      <td> {{ page.name }} </td>
-      <td> {{ page.url }} </td>
-      <td> {{ page.date }} </td>
-      <td> {{ page.title }} </td>
-      <td> {{ page.dir }} </td>
-    </tr>
+      {% if page.url contains '/applications/' %}  
+        <tr>
+          <td> <a href="{{ page.url }}">{{ page.name }} </td>
+          <td> {{ page.date }} </td>
+          <td> {{ page.dir }} </td>
+        </tr>
+      {% endif %}
     {% endfor %}
   </tbody>
 </table>
