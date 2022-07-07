@@ -1,0 +1,78 @@
+name: Grant Application
+description: Submit a new, public grant application
+title: "[Application]: "
+labels: ["application"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: title
+    attributes:
+      label: Project Name
+      description: Name of your project
+      placeholder: e.g. DuoSwap Module
+    validations:
+      required: true
+  - type: input
+    id: team
+    attributes:
+      label: Team Name
+      description: Legal name of your team
+      placeholder: e.g. Duo
+    validations:
+      required: true
+  - type: input
+    id: payment
+    attributes:
+      label: \*Payment Address\*
+      description: Payment address and currency
+      placeholder: e.g. 0x8920... (DAI)
+    validations:
+      required: true
+  - type: textarea
+    id: overview
+    attributes:
+      label: Project Overview
+      description: Please provide the following:\
+        If the name of your project is not descriptive, a tag line (one sentence summary).\
+        A brief description of your project.\
+        An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.\
+        An indication of why your team is interested in creating this project.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
