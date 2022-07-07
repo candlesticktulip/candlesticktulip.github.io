@@ -5,3 +5,5 @@ collections:
     output: true
   docs:
     output: true
+plugins:
+  - jemoji
