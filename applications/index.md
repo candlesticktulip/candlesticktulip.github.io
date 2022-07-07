@@ -11,10 +11,12 @@ title: List of accepted applications
   <p>{{ application.content | markdownify }}</p>
 {% endfor %} -->
 
-{% for p in site.pages %}
-    {% if p.url contains 'applications/' %}
-        {{ p.url }}
-    {% else %}
-        {% comment %}Do nothing{% endcomment %}
+| Name | Link | Date | Title | Dir |
+|-------|--------|---------|
+{% for page in site.pages %}
+    {% if page.url contains 'applications/' %}
+        | {{ page.name }} | {{ page.url }} | {{ page.date }} | {{ page.title }} | {{ page.dir }} |  
+    <!-- {% else %}
+        {% comment %}Do nothing{% endcomment %} -->
     {% endif %}
 {% endfor %}
