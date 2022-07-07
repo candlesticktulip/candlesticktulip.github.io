@@ -2,17 +2,6 @@
 title: List of accepted applications
 datatable: true
 ---
-<script>
-$(document).ready(function(){
-
-    $('table.display').DataTable( {
-        paging: true,
-        stateSave: true,
-        searching: true
-    }
-        );
-});
-</script>
 
 <table class="display">
   <thead>
@@ -34,3 +23,16 @@ $(document).ready(function(){
     {% endfor %}
   </tbody>
 </table>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+<script>
+$(document).ready(function(){
+
+    $('table.display').DataTable( {
+        paging: true,
+        stateSave: true,
+        searching: true
+    }
+        );
+});
+</script>
