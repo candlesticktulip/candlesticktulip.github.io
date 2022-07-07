@@ -1,17 +1,17 @@
 # Web3 Foundation Grants Program<!-- omit in toc -->
 
-<p align="center">
+<div align="center">
   <img src="src/Grants_Program.png" style="width:1300px";>
-</p>
+</div>
 
 
-| Source | Link  | 
-| :--- | :------ |  
-| /applications | [./applications/](./applications/) |
-| /docs | [./docs/](./docs/) | 
-| /applications/faceless.md | [./applications/faceless.md](./applications/faceless.md) |
-| /rfps | [./rfps/](./rfps/) | 
-| /rfps/README.md | [./rfps/README.md](./rfps/README.md) |
+| Source | Link  | Comment
+| :--- | :------ | :------ |
+| /applications | [./applications/](./applications/) | Folders cannot be linked |
+| /docs | [./docs/](./docs/) | Folders cannot be linked... |
+| /rfps | [./rfps/](./rfps/) | ... unless they have a Readme inside. |
+| /rfps/README.md | [./rfps/README.md](./rfps/README.md) | RFPs |
+| /applications/faceless.md | [./applications/faceless.md](./applications/faceless.md) | All .md files are automatically converted to HTML |
 
 
 - [:wave: Introduction](#wave-introduction)
