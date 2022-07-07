@@ -1,6 +1,6 @@
 ---
 title: List of accepted applications
-datatable: true
+layout: applications
 ---
 
 <table class="display">
