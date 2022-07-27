@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="../src/rfp-header.png" style="width:1300px";>
-</p>
+<img src="../src/rfp-header.png" style="width:1300px; display: block; margin-left: auto; margin-right: auto;">
 
 - [:grey_question: What is an RFP?](#grey_question-what-is-an-rfp)
 - [:scroll: List of RFPs](#scroll-list-of-rfps)
