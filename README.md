@@ -1,5 +1,3 @@
-# Web3 Foundation Grants Program<!-- omit in toc -->
-
 <img src="src/Grants_Program.png" style="width:1300px; display: block; margin-left: auto; margin-right: auto;">
 
 | Source | Link  | Comment
