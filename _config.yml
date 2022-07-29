@@ -3,3 +3,37 @@ remote_theme: amitmerchant1990/reverie
 title: Some Great Grants Program
 plugins:
   - jemoji
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: /src/web3 foundation grants_black.jpg
+
+#
+# Flags below are optional
+#
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: grants@web3.foundation
+  github: w3f/Grants-Program
+  rss: rss
+  twitter: web3foundation
+  youtube: channel/UClnw_bcNg4CAzF772qEtq4g
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
