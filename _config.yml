@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-hacker
 title: Some Great Grants Program
 plugins:
   - jemoji
