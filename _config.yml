@@ -3,6 +3,8 @@ remote_theme: amitmerchant1990/reverie
 title: Some Great Grants Program
 plugins:
   - jemoji
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 url: https://candlesticktulip.github.io/
 
@@ -26,11 +28,6 @@ footer-links:
   rss: rss
   twitter: web3foundation
   youtube: channel/UClnw_bcNg4CAzF772qEtq4g
-
-# Use the following plug-ins
-plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site
 exclude:
